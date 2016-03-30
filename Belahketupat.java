@@ -27,6 +27,9 @@ public class Belahketupat {
         for (int j = 1; j <= i; j++) {
             System.out.print("*");
         }
+        for (int k = size; k >= i; k -= 2) {
+            System.out.print("0");
+        }
         System.out.println();
     }// end loop
 
@@ -36,6 +39,9 @@ public class Belahketupat {
         }
         for (int j = size; j >= i; j--) {
             System.out.print("*");
+        }
+        for (int k = 1; k <= i; k += 2) {
+            System.out.print("0");
         }
         System.out.println();
     }// end loop
