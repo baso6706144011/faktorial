@@ -43,6 +43,9 @@ public class Belahketupat {
         for (int k = 1; k <= i; k += 2) {
             System.out.print("0");
         }
+        
+        
+        1111111111111111
         System.out.println();
     }// end loop
     }
